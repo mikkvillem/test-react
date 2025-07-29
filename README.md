@@ -18,4 +18,5 @@ Nice to have - loading animation, if the request takes time
 Modify `/src/App.jsx` and `/src/api/anagram.js` files as needed.
 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mikkvillem/test-react/edit/anagram)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mikkvillem/test-react/tree/anagram)
+
