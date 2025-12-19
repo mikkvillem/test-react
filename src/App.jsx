@@ -1,5 +1,5 @@
 import './App.css';
-// import { getIsAnagram } from './api/anagram';
+// import { checkGuess } from './api/anagram';
 
 function App() {
     return (
