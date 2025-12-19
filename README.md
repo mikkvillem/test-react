@@ -10,10 +10,12 @@ Display a success/error message to the user if the guess was successful / unsucc
 
 1. User submits the word through a button
 2. User submits the word through the input
-3. Display list of previous tries
 
 Nice to have - loading animation, if the request takes time
 
 ## Task
 
 Modify `/src/App.jsx` and `/src/api/anagram.js` files as needed.
+
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mikkvillem/test-react/tree/anagram)
