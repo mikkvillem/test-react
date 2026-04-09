@@ -1,14 +1,25 @@
-# React test
+# React + js test
 
 ## Goal
 
-We need to track various counts and counters and act on count changing throughout our app.
+We want to create a guessing game where the user tries to guess the word of the day.
 
-User needs to be able to increment by 1 and by more than 1, decrement by one and more than one. User needs various effects to run when count changes.
-We need a way to limit triggering events when count changes quickly.
+- If the user entered the correct word the app should show "success".
+- If the user entered an anagram of the word, the app should say "anagram". (an anagram is a word that contains all the same letters but in different order, like "race" and "care")
+- If the user guessed incorrectly after 5 tries the app should say "too many tries".
+
+## MVP stages
+
+1. User submits the word through a button
+2. User submits the word through the input
+
+## Nice to have
+
+- Loading animation, if the request takes time
+- Correct answer revealed after too many tries
 
 ## Task
 
--   Create a reusable hook useCount() that would export the a count state and relavant methods to mutate the state.
+Modify `/src/App.jsx` and `/src/api/anagram.js` files as needed.
 
--   Use the hook to implement increment, decrement, incrementBy, incrementDebounced, onCountChange etc.
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mikkvillem/test-react/tree/anagram)
